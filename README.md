@@ -13,8 +13,8 @@ The goal is to identify potential high-risk transactions that may require enhanc
 ## 🧠 Rules Used
 | Rule | Condition | Meaning |
 |-------|----------|---------|
-| High-value transaction | Amount > 1000 | Requires attention; potential EDD |
-| Low-value transaction | Amount ≤ 1000 | Lower risk, unless frequent |
+| High-value transaction | Amount > 500 | Requires attention; potential EDD |
+| Low-value transaction | Amount ≤ 500 | Lower risk, unless frequent |
 | Rapid multiple transactions | Time_Diff < 60 sec | Could indicate structuring or layering |
 
 > Thresholds were calibrated to reflect dataset scale and simulate AML scenarios.
